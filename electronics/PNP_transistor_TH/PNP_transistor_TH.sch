@@ -92,7 +92,7 @@ F 3 "~" H 1150 1200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_NPN_CBE Q1
+L Device:Q_PNP_CBE Q1
 U 1 1 5FB5ABA9
 P 1650 1550
 F 0 "Q1" H 1841 1596 50  0000 L CNN
