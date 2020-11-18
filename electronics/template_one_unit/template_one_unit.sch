@@ -72,7 +72,7 @@ U 1 1 5FB5975F
 P 1700 1500
 F 0 "J4" H 1700 1400 50  0000 C CNN
 F 1 "RIGHT_BOT" H 1700 1600 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_609" H 1700 1500 50  0001 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1500 50  0001 C CNN
 F 3 "~" H 1700 1500 50  0001 C CNN
 	1    1700 1500
 	1    0    0    1   
