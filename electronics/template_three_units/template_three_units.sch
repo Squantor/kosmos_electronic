@@ -69,13 +69,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 5FB5975F
-P 1700 1800
-F 0 "J4" H 1700 1700 50  0000 C CNN
-F 1 "4" H 1700 1900 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1800 50  0001 C CNN
-F 3 "~" H 1700 1800 50  0001 C CNN
-	1    1700 1800
-	1    0    0    1   
+P 1200 2100
+F 0 "J4" H 1200 2200 50  0000 C CNN
+F 1 "4" H 1200 2000 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1200 2100 50  0001 C CNN
+F 3 "~" H 1200 2100 50  0001 C CNN
+	1    1200 2100
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1450 1500 1400 1500
@@ -106,23 +106,23 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 5FB6ECA4
-P 1700 1500
-F 0 "J5" H 1700 1600 50  0000 C CNN
-F 1 "5" H 1700 1400 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1500 50  0001 C CNN
-F 3 "~" H 1700 1500 50  0001 C CNN
-	1    1700 1500
+P 1700 2100
+F 0 "J5" H 1700 2200 50  0000 C CNN
+F 1 "5" H 1700 2000 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1700 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+	1    1700 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 5FB6F255
-P 1700 1200
-F 0 "J6" H 1700 1100 50  0000 C CNN
-F 1 "6" H 1700 1300 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1200 50  0001 C CNN
-F 3 "~" H 1700 1200 50  0001 C CNN
-	1    1700 1200
+P 1700 1800
+F 0 "J6" H 1700 1700 50  0000 C CNN
+F 1 "6" H 1700 1900 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1800 50  0001 C CNN
+F 3 "~" H 1700 1800 50  0001 C CNN
+	1    1700 1800
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -132,4 +132,33 @@ Wire Wire Line
 Wire Wire Line
 	1450 1800 1400 1800
 Connection ~ 1450 1800
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5FB71E40
+P 1700 1200
+F 0 "J8" H 1700 1100 50  0000 C CNN
+F 1 "8" H 1700 1300 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1200 50  0001 C CNN
+F 3 "~" H 1700 1200 50  0001 C CNN
+	1    1700 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5FB72175
+P 1700 1500
+F 0 "J7" H 1700 1400 50  0000 C CNN
+F 1 "7" H 1700 1600 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1500 50  0001 C CNN
+F 3 "~" H 1700 1500 50  0001 C CNN
+	1    1700 1500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1450 1800 1450 2100
+Wire Wire Line
+	1450 2100 1500 2100
+Wire Wire Line
+	1450 2100 1400 2100
+Connection ~ 1450 2100
 $EndSCHEMATC
