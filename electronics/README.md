@@ -8,7 +8,7 @@ The [Kosmos electronic radio tech](https://www.youtube.com/watch?v=OwKrZVnxMPc) 
 But why not create your own modules? I have a few ideas, useful for all kinds of experiments and prototyping. Feel free to add an issue for module ideas to add them to the planned modules.
 # Created modules
 * [one by one cell template](template_1by1/README.md)
-* [one by two cell template](template_1by2/README.md) is actually one by two unit cells.
+* [one by two cell template](template_1by2/README.md)
 * [one by three cell template](template_1by3/README.md)
 * [two by two cell template](template_2by2/README.md)
 * [NPN transistor](NPN_transistor_TH/README.md)
