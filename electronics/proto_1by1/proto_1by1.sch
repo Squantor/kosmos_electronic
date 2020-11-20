@@ -47,60 +47,83 @@ Wire Notes Line
 	1400 7000 600  7000
 Wire Notes Line
 	600  7550 1400 7550
-Wire Wire Line
-	1450 1200 1450 1500
-Connection ~ 1450 1500
-Connection ~ 1450 1200
-Wire Wire Line
-	1450 1200 1500 1200
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 5FB592C5
-P 1700 1200
-F 0 "J3" H 1700 1100 50  0000 C CNN
-F 1 "4" H 1700 1300 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1200 50  0001 C CNN
-F 3 "~" H 1700 1200 50  0001 C CNN
-	1    1700 1200
+P 2500 1900
+F 0 "J3" H 2500 1800 50  0000 C CNN
+F 1 "4" H 2500 2000 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 2500 1900 50  0001 C CNN
+F 3 "~" H 2500 1900 50  0001 C CNN
+	1    2500 1900
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	1450 1500 1500 1500
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 5FB5975F
-P 1700 1500
-F 0 "J4" H 1700 1400 50  0000 C CNN
-F 1 "3" H 1700 1600 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1500 50  0001 C CNN
-F 3 "~" H 1700 1500 50  0001 C CNN
-	1    1700 1500
+P 2500 2200
+F 0 "J4" H 2500 2100 50  0000 C CNN
+F 1 "3" H 2500 2300 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 2500 2200 50  0001 C CNN
+F 3 "~" H 2500 2200 50  0001 C CNN
+	1    2500 2200
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	1450 1500 1400 1500
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 5FB58352
-P 1200 1500
-F 0 "J2" H 1200 1400 50  0000 C CNN
-F 1 "2" H 1200 1600 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1200 1500 50  0001 C CNN
-F 3 "~" H 1200 1500 50  0001 C CNN
-	1    1200 1500
+P 1400 2200
+F 0 "J2" H 1400 2100 50  0000 C CNN
+F 1 "2" H 1400 2300 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1400 2200 50  0001 C CNN
+F 3 "~" H 1400 2200 50  0001 C CNN
+	1    1400 2200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1400 1200 1450 1200
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 5FB58B49
-P 1200 1200
-F 0 "J1" H 1200 1100 50  0000 C CNN
-F 1 "1" H 1200 1300 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1200 1200 50  0001 C CNN
-F 3 "~" H 1200 1200 50  0001 C CNN
-	1    1200 1200
+P 1400 1900
+F 0 "J1" H 1400 1800 50  0000 C CNN
+F 1 "1" H 1400 2000 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1400 1900 50  0001 C CNN
+F 3 "~" H 1400 1900 50  0001 C CNN
+	1    1400 1900
 	-1   0    0    1   
 $EndComp
+$Comp
+L SquantorProto:KOSMOS_1x1_protoarea U?
+U 1 1 5FB8068F
+P 1950 2050
+F 0 "U?" H 1950 2250 50  0000 C CNN
+F 1 "KOSMOS_1x1_protoarea" H 1950 1850 50  0000 C CNN
+F 2 "" H 1950 2050 50  0001 C CNN
+F 3 "" H 1950 2050 50  0001 C CNN
+	1    1950 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2000 1650 2000
+Wire Wire Line
+	1650 2000 1650 1900
+Wire Wire Line
+	1650 1900 1600 1900
+Wire Wire Line
+	1600 2200 1650 2200
+Wire Wire Line
+	1650 2200 1650 2100
+Wire Wire Line
+	1650 2100 1700 2100
+Wire Wire Line
+	2300 2200 2250 2200
+Wire Wire Line
+	2250 2200 2250 2100
+Wire Wire Line
+	2250 2100 2200 2100
+Wire Wire Line
+	2200 2000 2250 2000
+Wire Wire Line
+	2250 2000 2250 1900
+Wire Wire Line
+	2250 1900 2300 1900
 $EndSCHEMATC
