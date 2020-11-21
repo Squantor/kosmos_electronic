@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20201120" H 800 7450 60  0000 L CNN
+F 1 "20201121" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -92,12 +92,12 @@ F 3 "~" H 1400 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SquantorProto:KOSMOS_1x1_protoarea U?
+L SquantorProto:KOSMOS_1x1_protoarea U1
 U 1 1 5FB8068F
 P 1950 2050
-F 0 "U?" H 1950 2250 50  0000 C CNN
+F 0 "U1" H 1950 2250 50  0000 C CNN
 F 1 "KOSMOS_1x1_protoarea" H 1950 1850 50  0000 C CNN
-F 2 "" H 1950 2050 50  0001 C CNN
+F 2 "SquantorProto:proto-TH-0245-KOSGRID-1X1-P020SQ-H010" H 1950 2050 50  0001 C CNN
 F 3 "" H 1950 2050 50  0001 C CNN
 	1    1950 2050
 	1    0    0    -1  
@@ -126,4 +126,12 @@ Wire Wire Line
 	2250 2000 2250 1900
 Wire Wire Line
 	2250 1900 2300 1900
+Text Label 1650 1900 0    50   ~ 0
+1
+Text Label 1650 2200 0    50   ~ 0
+2
+Text Label 2250 2200 0    50   ~ 0
+3
+Text Label 2250 1900 0    50   ~ 0
+4
 $EndSCHEMATC
