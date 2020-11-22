@@ -18,9 +18,9 @@ But why not create your own modules? I have a few ideas, useful for all kinds of
 * [PNP transistor Through Hole](PNP_transistor_TH/README.md)
 * [NMOS transistor Through Hole](NMOS_transistor_TH/README.md)
 * [PMOS transistor Through Hole](PMOS_transistor_TH/README.md)
+* [Generic transistor SOT23](transistor_SOT23/README.md)
 # Planned modules
 * Prototyping boards for all the templates, useful for adding your own circuits
-* SMD transistor module, smd transistors are easier to get. This can be used for BJT's MOSFETS's and JFET's
 * TL431 adjustable zener
 * NE555 just like in the XN3000 box
 * General purpose dual opamp board, fit with a socket so any dual opamp can be fitted
