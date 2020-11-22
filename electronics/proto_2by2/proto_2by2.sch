@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L SquantorLabels:VYYYYMMDD N1
-U 1 1 5EE12BF3
-P 1050 7450
-F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20201122" H 800 7450 60  0000 L CNN
-F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
-F 3 "" H 1050 7450 60  0001 C CNN
-	1    1050 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SquantorLabels:OHWLOGO N2
-U 1 1 5EE13678
-P 800 7150
-F 0 "N2" H 928 7203 60  0000 L CNN
-F 1 "OHWLOGO" H 928 7097 60  0000 L CNN
-F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 800 7150 60  0001 C CNN
-F 3 "" H 800 7150 60  0001 C CNN
-	1    800  7150
-	1    0    0    -1  
-$EndComp
 Text Notes 650  7650 0    50   ~ 0
 Logos and version
 Wire Notes Line
@@ -164,4 +142,6 @@ Text Label 2050 1500 2    50   ~ 0
 5
 Text Label 2050 1800 2    50   ~ 0
 4
+Text Notes 800  7450 0    50   ~ 0
+V20201122
 $EndSCHEMATC
