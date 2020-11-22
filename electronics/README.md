@@ -11,6 +11,9 @@ But why not create your own modules? I have a few ideas, useful for all kinds of
 * [one by two cell template](template_1by2/README.md)
 * [one by three cell template](template_1by3/README.md)
 * [two by two cell template](template_2by2/README.md)
+* [one by one cell prototyping board](proto_1by1/README.md)
+* [one by two cell prototyping board](proto_1by2/README.md)
+* [two by two cell prototyping board](proto_2by2/README.md)
 * [NPN transistor](NPN_transistor_TH/README.md)
 * [PNP transistor](PNP_transistor_TH/README.md)
 # Planned modules
