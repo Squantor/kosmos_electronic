@@ -47,89 +47,186 @@ Wire Notes Line
 	1400 7000 600  7000
 Wire Notes Line
 	600  7550 1400 7550
-Wire Wire Line
-	1450 1200 1450 1500
-Connection ~ 1450 1500
-Connection ~ 1450 1200
-Wire Wire Line
-	1450 1200 1500 1200
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 5FB592C5
-P 1200 1800
-F 0 "J3" H 1200 1900 50  0000 C CNN
-F 1 "3" H 1200 1700 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1200 1800 50  0001 C CNN
-F 3 "~" H 1200 1800 50  0001 C CNN
-	1    1200 1800
+P 1050 2000
+F 0 "J3" H 1050 2100 50  0000 C CNN
+F 1 "E" H 1050 1900 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1050 2000 50  0001 C CNN
+F 3 "~" H 1050 2000 50  0001 C CNN
+	1    1050 2000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 1500 1500 1500
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 5FB5975F
-P 1700 1800
-F 0 "J4" H 1700 1700 50  0000 C CNN
-F 1 "4" H 1700 1900 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1800 50  0001 C CNN
-F 3 "~" H 1700 1800 50  0001 C CNN
-	1    1700 1800
+P 3050 2000
+F 0 "J4" H 3050 1900 50  0000 C CNN
+F 1 "-" H 3050 2100 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 3050 2000 50  0001 C CNN
+F 3 "~" H 3050 2000 50  0001 C CNN
+	1    3050 2000
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	1450 1500 1400 1500
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5FB58352
-P 1200 1500
-F 0 "J2" H 1200 1400 50  0000 C CNN
-F 1 "2" H 1200 1600 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1200 1500 50  0001 C CNN
-F 3 "~" H 1200 1500 50  0001 C CNN
-	1    1200 1500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1400 1200 1450 1200
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 5FB58B49
-P 1200 1200
-F 0 "J1" H 1200 1100 50  0000 C CNN
-F 1 "1" H 1200 1300 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1200 1200 50  0001 C CNN
-F 3 "~" H 1200 1200 50  0001 C CNN
-	1    1200 1200
+P 1050 1400
+F 0 "J1" H 1050 1300 50  0000 C CNN
+F 1 "V" H 1050 1500 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 1050 1400 50  0001 C CNN
+F 3 "~" H 1050 1400 50  0001 C CNN
+	1    1050 1400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 5FB6ECA4
-P 1700 1500
-F 0 "J5" H 1700 1600 50  0000 C CNN
-F 1 "5" H 1700 1400 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1500 50  0001 C CNN
-F 3 "~" H 1700 1500 50  0001 C CNN
-	1    1700 1500
+P 3050 1700
+F 0 "J5" H 3050 1800 50  0000 C CNN
+F 1 "A" H 3050 1600 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 3050 1700 50  0001 C CNN
+F 3 "~" H 3050 1700 50  0001 C CNN
+	1    3050 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 5FB6F255
-P 1700 1200
-F 0 "J6" H 1700 1100 50  0000 C CNN
-F 1 "6" H 1700 1300 50  0000 C CNN
-F 2 "mill-max:PC_pin_nail_head_6092" H 1700 1200 50  0001 C CNN
-F 3 "~" H 1700 1200 50  0001 C CNN
-	1    1700 1200
+P 3050 1400
+F 0 "J6" H 3050 1300 50  0000 C CNN
+F 1 "+" H 3050 1500 50  0000 C CNN
+F 2 "mill-max:PC_pin_nail_head_6092" H 3050 1400 50  0001 C CNN
+F 3 "~" H 3050 1400 50  0001 C CNN
+	1    3050 1400
 	1    0    0    1   
 $EndComp
+$Comp
+L SquantorGenericAnalog:TBA820M U1
+U 1 1 5FBCB5FF
+P 2050 1700
+F 0 "U1" H 1850 2000 50  0000 C CNN
+F 1 "TBA820M" H 2050 1400 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2100 1700 50  0001 C CNN
+F 3 "" H 2100 1700 50  0001 C CNN
+	1    2050 1700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1450 1500 1450 1800
+	1600 1750 1350 1750
 Wire Wire Line
-	1450 1800 1500 1800
+	1350 1750 1350 2000
 Wire Wire Line
-	1450 1800 1400 1800
-Connection ~ 1450 1800
+	1350 2000 1250 2000
+Wire Wire Line
+	1600 1650 1350 1650
+Wire Wire Line
+	1350 1650 1350 1400
+Wire Wire Line
+	1350 1400 1250 1400
+Wire Wire Line
+	2500 1750 2550 1750
+Wire Wire Line
+	2700 1750 2700 1400
+Wire Wire Line
+	2700 1400 2850 1400
+Wire Wire Line
+	2500 1650 2550 1650
+Wire Wire Line
+	2550 1650 2550 1750
+Connection ~ 2550 1750
+Wire Wire Line
+	2550 1750 2700 1750
+Wire Wire Line
+	2500 1850 2600 1850
+Wire Wire Line
+	2750 1850 2750 1700
+Wire Wire Line
+	2750 1700 2850 1700
+Wire Wire Line
+	2850 2000 1500 2000
+Wire Wire Line
+	1500 2000 1500 1850
+Wire Wire Line
+	1500 1850 1600 1850
+$Comp
+L Device:C C2
+U 1 1 5FBCDCDE
+P 2050 1150
+F 0 "C2" V 2000 1000 50  0000 L CNN
+F 1 "330n" V 2100 1200 50  0000 L CNN
+F 2 "SquantorRcl:C-025_050_075-040X100" H 2088 1000 50  0001 C CNN
+F 3 "~" H 2050 1150 50  0001 C CNN
+	1    2050 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FBCFC1E
+P 2050 1350
+F 0 "C3" V 2000 1250 50  0000 C CNN
+F 1 "330p" V 2100 1500 50  0000 C CNN
+F 2 "SquantorRcl:C-025_050_075-030X100" H 2088 1200 50  0001 C CNN
+F 3 "~" H 2050 1350 50  0001 C CNN
+	1    2050 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1550 1550 1550
+Wire Wire Line
+	1550 1550 1550 1350
+Wire Wire Line
+	1550 1350 1900 1350
+Wire Wire Line
+	1900 1150 1500 1150
+Wire Wire Line
+	1500 1150 1500 1850
+Connection ~ 1500 1850
+Wire Wire Line
+	2200 1150 2550 1150
+Wire Wire Line
+	2550 1150 2550 1650
+Connection ~ 2550 1650
+Wire Wire Line
+	2200 1350 2600 1350
+Wire Wire Line
+	2600 1350 2600 1850
+Connection ~ 2600 1850
+Wire Wire Line
+	2600 1850 2750 1850
+$Comp
+L Device:C C1
+U 1 1 5FBDD6BB
+P 1850 950
+F 0 "C1" V 1800 800 50  0000 L CNN
+F 1 "330n" V 1900 1000 50  0000 L CNN
+F 2 "SquantorRcl:C-025_050_075-040X100" H 1888 800 50  0001 C CNN
+F 3 "~" H 1850 950 50  0001 C CNN
+	1    1850 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FBDE072
+P 2250 950
+F 0 "R1" V 2300 1100 50  0000 C CNN
+F 1 "R" V 2250 950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2180 950 50  0001 C CNN
+F 3 "~" H 2250 950 50  0001 C CNN
+	1    2250 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 950  2100 950 
+Wire Wire Line
+	1700 950  1500 950 
+Wire Wire Line
+	1500 950  1500 1150
+Connection ~ 1500 1150
+Wire Wire Line
+	2400 950  2750 950 
+Wire Wire Line
+	2750 950  2750 1700
+Connection ~ 2750 1700
 $EndSCHEMATC
