@@ -197,7 +197,7 @@
     (property "Reference" "N1" (at 25.4 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "V20220113" (at 20.32 189.23 0)
+    (property "Value" "V20240506" (at 20.32 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (at 26.67 189.23 0)
@@ -207,7 +207,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "N1") (unit 1)
         )
@@ -231,7 +231,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "N2") (unit 1)
         )
@@ -256,7 +256,7 @@
     )
     (pin "1" (uuid 3f2ee82c-bdce-424d-8ab3-10c8d9a1c322))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J2") (unit 1)
         )
@@ -281,7 +281,7 @@
     )
     (pin "1" (uuid 9c8e83e5-37e8-4c63-b5f2-0610cd5421da))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J1") (unit 1)
         )
@@ -306,7 +306,7 @@
     )
     (pin "1" (uuid b6274f15-b600-4b87-9f54-70440026416a))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J3") (unit 1)
         )
@@ -331,7 +331,7 @@
     )
     (pin "1" (uuid 03821e85-6c06-40ef-9971-2ea062bd905a))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J4") (unit 1)
         )
@@ -356,7 +356,7 @@
     )
     (pin "1" (uuid cfbf8ac9-a4ac-4b9e-9abf-c3f6883210f9))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J5") (unit 1)
         )
@@ -381,7 +381,7 @@
     )
     (pin "1" (uuid 18359ec6-ab35-40b2-ac52-4be851dca89b))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J6") (unit 1)
         )
@@ -406,7 +406,7 @@
     )
     (pin "1" (uuid 7fbd3285-0a9b-40fe-b302-528e1a14ac85))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J9") (unit 1)
         )
@@ -431,7 +431,7 @@
     )
     (pin "1" (uuid b80c9674-f4da-4cac-a6c5-5c0fc3927507))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J7") (unit 1)
         )
@@ -456,7 +456,7 @@
     )
     (pin "1" (uuid 0e4de17f-c5ac-4dc6-a803-4859e5f19f9a))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J8") (unit 1)
         )
@@ -481,7 +481,7 @@
     )
     (pin "1" (uuid f9d21642-4e66-4f24-bfcf-aa8bc9ffe7de))
     (instances
-      (project "template_1by4"
+      (project "template_1by4_high_density_X"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J10") (unit 1)
         )

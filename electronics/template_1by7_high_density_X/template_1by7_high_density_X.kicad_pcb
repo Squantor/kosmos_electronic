@@ -118,7 +118,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005fb5e4bb)
-    (at 142.5 70)
+    (at 142.5 68.4)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -143,7 +143,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005fb5e4c2)
-    (at 142.5 77.5)
+    (at 142.5 74.3)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -168,7 +168,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005fb6ead0)
-    (at 142.5 92.5 180)
+    (at 142.5 86.1 180)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -193,7 +193,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005fb6ead7)
-    (at 142.5 100 180)
+    (at 142.5 92 180)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -218,7 +218,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005fb6eb0f)
-    (at 142.5 85 180)
+    (at 142.5 80.2 180)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -243,7 +243,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 3518f972-d913-4c99-9547-a4b12b868286)
-    (at 157.5 100)
+    (at 157.5 92)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -268,7 +268,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 4dcaa834-3f80-489d-9a13-a504950b9941)
-    (at 142.5 115)
+    (at 142.5 103.8)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -318,7 +318,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 91122b85-b54e-41c0-b7e8-766a1534786c)
-    (at 157.5 77.5)
+    (at 157.5 74.3)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -343,7 +343,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp 9bd9e9f4-4634-426c-9950-fc90d6f79985)
-    (at 157.5 107.5)
+    (at 157.5 97.9)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -368,7 +368,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp b4a8703e-86af-4de6-b1c5-2a7299ecfe8d)
-    (at 157.5 85)
+    (at 157.5 80.2)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -393,7 +393,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp bfb7b0a2-8d57-474b-9898-7068476a4dfb)
-    (at 142.5 107.5)
+    (at 142.5 97.9)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -418,7 +418,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp c965776c-26d1-42a5-9fbc-65f14208e96c)
-    (at 157.5 115)
+    (at 157.5 103.8)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -443,7 +443,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp df333907-2670-4151-9a86-4635a66a6d66)
-    (at 157.5 92.5)
+    (at 157.5 86.1)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -468,7 +468,7 @@
 
   (footprint "mill-max:PC_pin_nail_head_6092" locked (layer "F.Cu")
     (tstamp e8354be4-70d8-4a41-a3b7-3e17ff5573ba)
-    (at 157.5 70)
+    (at 157.5 68.4)
     (property "Sheetfile" "template_1by7.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -493,7 +493,7 @@
 
   (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" (layer "B.Cu")
     (tstamp 00000000-0000-0000-0000-00005ee12086)
-    (at 150 76.5 180)
+    (at 150 82.6 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (property "Sheetfile" "template_1by7.kicad_sch")
@@ -854,7 +854,7 @@
 
   (footprint "SquantorLabels:Label_Generic" (layer "B.Cu")
     (tstamp 00000000-0000-0000-0000-00005fb6ed34)
-    (at 150.9 80.2 180)
+    (at 150.9 86.3 180)
     (descr "Label for general purpose use")
     (tags "Label")
     (property "Sheetfile" "template_1by7.kicad_sch")
@@ -873,13 +873,13 @@
       (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 3990bec1-73b8-40af-9f77-74fba2e44f7e))
   )
 
-  (gr_line (start 140.5 117) (end 159.5 117)
+  (gr_line (start 140.5 105.8) (end 159.5 105.8)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-00005fb5e4f5))
-  (gr_line (start 159.5 60.5) (end 159.5 117)
+  (gr_line (start 159.5 60.5) (end 159.5 105.8)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-00005fb5e4fa))
   (gr_line (start 159.5 60.5) (end 140.5 60.5)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-00005fb5e506))
-  (gr_line (start 140.5 117) (end 140.5 60.5)
+  (gr_line (start 140.5 105.8) (end 140.5 60.5)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 6657e7f5-434b-4f93-ab26-857f5b969897))
 
 )
