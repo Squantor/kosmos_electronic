@@ -1,5 +1,4 @@
 (fp_lib_table
-  (version 7)
   (lib (name "SquantorAtmel")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorAtmel.pretty")(options "")(descr "Squantor Atmel devices"))
   (lib (name "SquantorCapacitor")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorCapacitor.pretty")(options "")(descr "squantor capacitors"))
   (lib (name "SquantorConnectors")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectors.pretty")(options "")(descr "squantor connectors"))
@@ -32,5 +31,4 @@
   (lib (name "SquantorUsb")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorUsb.pretty")(options "")(descr "squantor USB connectors"))
   (lib (name "SquantorWinbond")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorWinbond.pretty")(options "")(descr "squantor Winbond devices"))
   (lib (name "SquantorWurth")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorWurth.pretty")(options "")(descr "squantor Wurth devices"))
-  (lib (name "mill-max")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/mill-max.pretty")(options "")(descr ""))
 )
