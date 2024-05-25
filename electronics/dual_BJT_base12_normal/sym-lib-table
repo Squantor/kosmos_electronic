@@ -33,6 +33,7 @@
   (lib (name "SquantorSwitches")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorSwitches.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorTexasInstruments")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorTexasInstruments.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorTransformer")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorTransformer.kicad_sym")(options "")(descr ""))
+  (lib (name "SquantorTransistor")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorTransistor.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorUsb")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorUsb.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorWCH")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorWCH.kicad_sym")(options "")(descr ""))
   (lib (name "SquantorWinbond")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorWinbond.kicad_sym")(options "")(descr ""))
