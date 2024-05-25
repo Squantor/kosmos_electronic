@@ -1,4 +1,5 @@
 (fp_lib_table
+  (lib (name "mill-max")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/mill-max.pretty")(options "")(descr "Mill Max"))
   (lib (name "SquantorAtmel")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorAtmel.pretty")(options "")(descr "Squantor Atmel devices"))
   (lib (name "SquantorCapacitor")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorCapacitor.pretty")(options "")(descr "squantor capacitors"))
   (lib (name "SquantorConnectors")(type "KiCad")(uri "${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectors.pretty")(options "")(descr "squantor connectors"))

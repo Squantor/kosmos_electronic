@@ -354,7 +354,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "N1") (unit 1)
         )
@@ -378,7 +378,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "N2") (unit 1)
         )
@@ -403,7 +403,7 @@
     )
     (pin "1" (uuid a704d91f-9c9b-4737-9ae5-5fcefa73ed34))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J2") (unit 1)
         )
@@ -428,7 +428,7 @@
     )
     (pin "1" (uuid 5c1795fe-ca65-4a38-b0ef-25b11042859f))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J1") (unit 1)
         )
@@ -453,7 +453,7 @@
     )
     (pin "1" (uuid 25867377-a4ca-43cf-b87c-e05ef70914b4))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J3") (unit 1)
         )
@@ -478,7 +478,7 @@
     )
     (pin "1" (uuid a29be3ff-9ed3-4f96-95a6-e6e5471c2822))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J4") (unit 1)
         )
@@ -503,7 +503,7 @@
     )
     (pin "1" (uuid 4f2782ae-a565-4cb5-9def-01450fa8f2db))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J5") (unit 1)
         )
@@ -528,7 +528,7 @@
     )
     (pin "1" (uuid 3b8db3a3-92a6-477a-8dcc-9ec20083dbee))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J6") (unit 1)
         )
@@ -553,7 +553,7 @@
     )
     (pin "1" (uuid 14704c65-91d1-4418-8b77-be548bc9c60d))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J8") (unit 1)
         )
@@ -578,7 +578,7 @@
     )
     (pin "1" (uuid 506dd3a2-89ec-4d32-b75b-17247204fd5e))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J7") (unit 1)
         )
@@ -610,7 +610,7 @@
     (pin "7" (uuid f834eaec-dc16-4259-ba7d-055ae8798ea4))
     (pin "4" (uuid 808510f8-03b7-4529-bc50-4e1b1b882bf9))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "U1") (unit 1)
         )
@@ -627,7 +627,7 @@
     (property "Value" "1u" (at 41.91 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorCapacitor:C-050-050X080-film" (at 43.18 29.5148 0)
+    (property "Footprint" "SquantorCapacitor:C-050-050X100-0805-3516-film" (at 43.18 29.5148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 30.48 0)
@@ -636,7 +636,7 @@
     (pin "1" (uuid 19a0839e-1538-4b9c-b38b-637afbf9db91))
     (pin "2" (uuid 99646c7c-cac9-4786-8eae-8458323ccba2))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_normal"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "C1") (unit 1)
         )
