@@ -257,11 +257,11 @@
     (property "ki_keywords" "dual transistor")
     (path "/a43d7ef0-954a-406b-b42d-11815c1ddde5")
     (attr smd)
-    (fp_text reference "Q1" (at 0 -2) (layer "F.SilkS")
+    (fp_text reference "Q1" (at 0 -2) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 4b9430a3-9f4c-45fb-a7d7-1c490836999a)
     )
-    (fp_text value "~" (at 0 2) (layer "F.Fab")
+    (fp_text value "~" (at 0 2) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c27d95e-3b51-41b4-b40f-399300a23f7e)
     )
