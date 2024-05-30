@@ -151,7 +151,7 @@
       (property "Reference" "N" (at 0 3.81 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Value" "SquantorLabels_OHWLOGO" (at 0 -3.81 0)
+      (property "Value" "OHWLOGO" (at 0 -3.81 0)
         (effects (font (size 1.524 1.524)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -162,11 +162,11 @@
       )
       (symbol "OHWLOGO_0_1"
         (circle (center 0 0) (radius 1.27)
-          (stroke (width 0) (type solid))
+          (stroke (width 0) (type default))
           (fill (type none))
         )
         (circle (center 0 0) (radius 2.54)
-          (stroke (width 0) (type solid))
+          (stroke (width 0) (type default))
           (fill (type none))
         )
       )
@@ -175,7 +175,7 @@
       (property "Reference" "N" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Value" "SquantorLabels_VYYYYMMDD" (at 0 0 0)
+      (property "Value" "VYYYYMMDD" (at 0 0 0)
         (effects (font (size 1.524 1.524)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -186,7 +186,47 @@
       )
       (symbol "VYYYYMMDD_0_1"
         (rectangle (start 7.62 -1.27) (end -7.62 3.81)
-          (stroke (width 0) (type solid))
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
           (fill (type none))
         )
       )
@@ -198,6 +238,9 @@
   )
   (junction (at 49.53 30.48) (diameter 0) (color 0 0 0 0)
     (uuid 561aaf1d-10dc-4157-92c2-4818ab47705b)
+  )
+  (junction (at 29.21 30.48) (diameter 0) (color 0 0 0 0)
+    (uuid c2f092f8-148e-4fcd-afe4-304f4727e939)
   )
 
   (wire (pts (xy 26.67 40.64) (xy 26.67 38.1))
@@ -233,6 +276,10 @@
   (wire (pts (xy 48.26 38.1) (xy 49.53 38.1))
     (stroke (width 0) (type default))
     (uuid 4c2facb4-9940-4294-ac14-4587b6af0a2b)
+  )
+  (wire (pts (xy 29.21 29.21) (xy 29.21 30.48))
+    (stroke (width 0) (type default))
+    (uuid 4ffb12cf-6f4b-48fe-ad49-07082787bdac)
   )
   (wire (pts (xy 43.18 30.48) (xy 49.53 30.48))
     (stroke (width 0) (type default))
@@ -278,6 +325,10 @@
   (wire (pts (xy 50.8 45.72) (xy 52.07 45.72))
     (stroke (width 0) (type default))
     (uuid a6e45b61-8e4d-4de5-be51-5f188e727daf)
+  )
+  (wire (pts (xy 49.53 29.21) (xy 49.53 30.48))
+    (stroke (width 0) (type default))
+    (uuid c36750b5-335c-4d71-a9ce-ac8c86a8449d)
   )
   (polyline (pts (xy 15.24 177.8) (xy 15.24 195.58))
     (stroke (width 0) (type dash))
@@ -344,7 +395,7 @@
     (property "Reference" "N1" (at 25.4 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "V20240523" (at 20.32 189.23 0)
+    (property "Value" "V20240530" (at 20.32 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (at 26.67 189.23 0)
@@ -354,7 +405,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "N1") (unit 1)
         )
@@ -378,7 +429,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "N2") (unit 1)
         )
@@ -403,7 +454,7 @@
     )
     (pin "1" (uuid a704d91f-9c9b-4737-9ae5-5fcefa73ed34))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J2") (unit 1)
         )
@@ -428,7 +479,7 @@
     )
     (pin "1" (uuid 5c1795fe-ca65-4a38-b0ef-25b11042859f))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J1") (unit 1)
         )
@@ -453,7 +504,7 @@
     )
     (pin "1" (uuid 25867377-a4ca-43cf-b87c-e05ef70914b4))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J3") (unit 1)
         )
@@ -478,7 +529,7 @@
     )
     (pin "1" (uuid a29be3ff-9ed3-4f96-95a6-e6e5471c2822))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J4") (unit 1)
         )
@@ -503,7 +554,7 @@
     )
     (pin "1" (uuid 4f2782ae-a565-4cb5-9def-01450fa8f2db))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J5") (unit 1)
         )
@@ -528,7 +579,7 @@
     )
     (pin "1" (uuid 3b8db3a3-92a6-477a-8dcc-9ec20083dbee))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J6") (unit 1)
         )
@@ -553,7 +604,7 @@
     )
     (pin "1" (uuid 14704c65-91d1-4418-8b77-be548bc9c60d))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J8") (unit 1)
         )
@@ -578,7 +629,7 @@
     )
     (pin "1" (uuid 506dd3a2-89ec-4d32-b75b-17247204fd5e))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "J7") (unit 1)
         )
@@ -610,7 +661,7 @@
     (pin "7" (uuid f834eaec-dc16-4259-ba7d-055ae8798ea4))
     (pin "4" (uuid 808510f8-03b7-4529-bc50-4e1b1b882bf9))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "U1") (unit 1)
         )
@@ -627,7 +678,7 @@
     (property "Value" "1u" (at 41.91 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorCapacitor:C-050-050X080-film" (at 43.18 29.5148 0)
+    (property "Footprint" "SquantorCapacitor:C-050-050X100-0805-3516-film" (at 43.18 29.5148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 30.48 0)
@@ -636,9 +687,59 @@
     (pin "1" (uuid 19a0839e-1538-4b9c-b38b-637afbf9db91))
     (pin "2" (uuid 99646c7c-cac9-4786-8eae-8458323ccba2))
     (instances
-      (project "template_1by3"
+      (project "dual_opamp_XN"
         (path "/10c72907-d560-44b2-a65d-d12510b462b9"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 29.21 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3274e522-a10a-4f2e-827f-3f1b8e7792c6)
+    (property "Reference" "#FLG01" (at 29.21 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 29.21 24.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 29.21 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 29.21 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fae6b4f0-17a6-444e-b031-8edf4a95b42d))
+    (instances
+      (project "dual_opamp_XN"
+        (path "/10c72907-d560-44b2-a65d-d12510b462b9"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 49.53 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b963562a-db65-442e-8b1b-8129c65f0207)
+    (property "Reference" "#FLG02" (at 49.53 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 49.53 24.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 49.53 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 421b259e-32a4-4aff-b880-8082ca2c86a5))
+    (instances
+      (project "dual_opamp_XN"
+        (path "/10c72907-d560-44b2-a65d-d12510b462b9"
+          (reference "#FLG02") (unit 1)
         )
       )
     )
