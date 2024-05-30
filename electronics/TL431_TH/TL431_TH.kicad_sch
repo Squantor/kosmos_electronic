@@ -300,7 +300,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "template_1by1"
+      (project "TL431_TH"
         (path "/b8c0e900-6fea-4c90-a623-0efa02d854c2"
           (reference "N1") (unit 1)
         )
@@ -324,7 +324,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "template_1by1"
+      (project "TL431_TH"
         (path "/b8c0e900-6fea-4c90-a623-0efa02d854c2"
           (reference "N2") (unit 1)
         )
@@ -349,7 +349,7 @@
     )
     (pin "1" (uuid 7fd5fd96-4f20-4146-9884-cb75104cfaa0))
     (instances
-      (project "template_1by1"
+      (project "TL431_TH"
         (path "/b8c0e900-6fea-4c90-a623-0efa02d854c2"
           (reference "J2") (unit 1)
         )
@@ -374,7 +374,7 @@
     )
     (pin "1" (uuid 7507e8cc-8eac-4b03-be82-f0cdc03b06d2))
     (instances
-      (project "template_1by1"
+      (project "TL431_TH"
         (path "/b8c0e900-6fea-4c90-a623-0efa02d854c2"
           (reference "J1") (unit 1)
         )
@@ -399,7 +399,7 @@
     )
     (pin "1" (uuid af1581b9-c2dd-4287-98e4-7781e862def2))
     (instances
-      (project "template_1by1"
+      (project "TL431_TH"
         (path "/b8c0e900-6fea-4c90-a623-0efa02d854c2"
           (reference "J3") (unit 1)
         )
@@ -424,7 +424,7 @@
     )
     (pin "1" (uuid d000a3bb-b5e3-41c0-a377-c3fecdfefeb0))
     (instances
-      (project "template_1by1"
+      (project "TL431_TH"
         (path "/b8c0e900-6fea-4c90-a623-0efa02d854c2"
           (reference "J4") (unit 1)
         )
@@ -441,7 +441,7 @@
     (property "Value" "TL431" (at 31.75 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorIC:TO-92L_Inline" (at 31.75 33.02 0)
+    (property "Footprint" "SquantorIC:TO-92L_Inline_Wide" (at 31.75 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 31.75 33.02 0)
@@ -451,7 +451,7 @@
     (pin "3" (uuid c10f917b-74a4-400a-a179-850ba0049629))
     (pin "1" (uuid dcae167b-5960-4827-869e-e80e70ee3bd1))
     (instances
-      (project "template_1by1"
+      (project "TL431_TH"
         (path "/b8c0e900-6fea-4c90-a623-0efa02d854c2"
           (reference "U1") (unit 1)
         )
@@ -476,7 +476,7 @@
     )
     (pin "1" (uuid 4311c2c8-f676-4f85-a2ef-f6d74b32a0fb))
     (instances
-      (project "template_1by1"
+      (project "TL431_TH"
         (path "/b8c0e900-6fea-4c90-a623-0efa02d854c2"
           (reference "#FLG01") (unit 1)
         )
