@@ -746,8 +746,6 @@
     (stroke (width 0.3) (type default)) (layer "F.SilkS") (tstamp 5a38c1e8-e5a1-4c71-bc6c-039480aad02d))
   (gr_line (start 148 62.5) (end 152 62.5)
     (stroke (width 0.3) (type default)) (layer "F.SilkS") (tstamp 8045e32e-db4e-4f4a-b40a-d9eafb1696c3))
-  (gr_rect (start 142.5 72) (end 157.5 75.5)
-    (stroke (width 0.3) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 89479bce-4ca9-4eda-a90e-8d352d6f303d))
   (gr_poly
     (pts
       (xy 150.75 67.5)
