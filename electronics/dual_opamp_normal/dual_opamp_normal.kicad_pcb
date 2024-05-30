@@ -841,7 +841,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c38a5279-0964-4679-8bc0-7b67f6754f92)
     )
-    (fp_text value "V20240523" (at 0.8 0.1) (layer "B.SilkS")
+    (fp_text value "V20240530" (at 0.8 0.1) (layer "B.SilkS")
         (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
       (tstamp c1f5c0f2-5f82-4801-ac1d-9b8e0bdbe389)
     )
