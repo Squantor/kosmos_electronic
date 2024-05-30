@@ -224,7 +224,7 @@
     (property "Reference" "N1" (at 25.4 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "V20240506" (at 20.32 189.23 0)
+    (property "Value" "V20240530" (at 20.32 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (at 26.67 189.23 0)
@@ -234,7 +234,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "N1") (unit 1)
         )
@@ -258,7 +258,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "N2") (unit 1)
         )
@@ -283,7 +283,7 @@
     )
     (pin "1" (uuid 3f2ee82c-bdce-424d-8ab3-10c8d9a1c322))
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J2") (unit 1)
         )
@@ -308,7 +308,7 @@
     )
     (pin "1" (uuid 9c8e83e5-37e8-4c63-b5f2-0610cd5421da))
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J1") (unit 1)
         )
@@ -333,7 +333,7 @@
     )
     (pin "1" (uuid b6274f15-b600-4b87-9f54-70440026416a))
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J3") (unit 1)
         )
@@ -358,7 +358,7 @@
     )
     (pin "1" (uuid 03821e85-6c06-40ef-9971-2ea062bd905a))
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J4") (unit 1)
         )
@@ -383,7 +383,7 @@
     )
     (pin "1" (uuid cfbf8ac9-a4ac-4b9e-9abf-c3f6883210f9))
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J5") (unit 1)
         )
@@ -408,7 +408,7 @@
     )
     (pin "1" (uuid 18359ec6-ab35-40b2-ac52-4be851dca89b))
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "J6") (unit 1)
         )
@@ -438,7 +438,7 @@
     (pin "6" (uuid 366b6138-f603-4d52-b3a9-cd9f7d393a5d))
     (pin "5" (uuid 0ebc7297-4cf2-49a8-92cd-9b4e5781f77f))
     (instances
-      (project "triple_diode_normal"
+      (project "triple_diode_XN"
         (path "/4afa80ff-4542-4837-ba2e-ef55b455ed28"
           (reference "D1") (unit 1)
         )
